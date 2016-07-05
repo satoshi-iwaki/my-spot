@@ -1,0 +1,54 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+#platform :ios, '8.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'MySpot' do
+
+#pod 'AWSCore'
+#pod 'AWSAutoScaling'
+#pod 'AWSCloudWatch'
+#pod 'AWSDynamoDB'
+#pod 'AWSEC2'
+#pod 'AWSElasticLoadBalancing'
+#pod 'AWSKinesis'
+#pod 'AWSLambda'
+#pod 'AWSMachineLearning'
+#pod 'AWSMobileAnalytics'
+#pod 'AWSS3'
+#pod 'AWSSES'
+#pod 'AWSSimpleDB'
+#pod 'AWSSNS'
+#pod 'AWSSQS'
+#pod 'AWSCognito'
+
+pod 'FBSDKCoreKit', '~> 4.10.0'
+
+pod 'Google'
+pod 'GoogleMaps'
+pod 'GoogleSignIn'
+
+pod 'Firebase'
+pod 'Firebase/Database'
+pod 'Firebase/Messaging'
+pod 'Firebase/Auth'
+pod 'Firebase/Storage'
+pod 'Firebase/RemoteConfig'
+
+end
+
+target 'MySpotTests' do
+
+pod 'OCMock'
+
+end
+
